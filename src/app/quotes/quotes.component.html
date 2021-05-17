@@ -13,8 +13,8 @@
                 </p>
                 <p *ngIf='quote.showDescription' id="minimize" class="btn btn-primary" (click)='toggleDescription(i)'>
                   Minimize</p>
-                <!-- <app-quotes-detail *ngIf='quote.showDescription' [quote]='quote' (ToDelete)='removeQuote($event, i)'>
-                </app-quotes-detail> -->
+                <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (ToDelete)='removeQuote($event, i)'>
+                </app-quote-detail>
               </div>
             </div>
           </div>
