@@ -2,4 +2,4 @@
 <p>Added <strong>{{quote.creationDate|timeCount}}</strong> ago</p>
 <p class="btn btn-primary" id="upvote" (click)='addUpVote()'>like {{quote.upVote}}</p>
 <p id='downvote' (click)='addDownVote()' class='btn btn-primary'>dislike {{quote.downVote}}</p>
-<button class="btn btn-danger" (click)='quoteDelete(true)'>Delete Quote</button>
+<button class="btn btn-danger del" (click)='quoteDelete(true)'>Delete Quote</button>
