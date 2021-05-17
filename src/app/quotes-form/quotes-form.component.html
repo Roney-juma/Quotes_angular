@@ -1,13 +1,13 @@
 <form (ngSubmit)='submitQuote()' #quoteForm='ngForm' ngNativeValidate>
-    <div class="form-group">
+    <div class="form-group author">
       <label for='author'>Author</label>
       <input type="text" required class="form-control" id="author" [(ngModel)]="newQuote.author" #author='ngModel'
-        name="author">
+        name="author" placeholder="Name of the writer...">
     </div>
     <div class="form-group text">
       <label for='name'>Quote</label>
       <textarea type='text' class="form-control" id="name" rows="4" [(ngModel)]='newQuote.name' #name='ngModel'
-        name='name' placeholder="Enter Quote..." required></textarea>
+        name='name' placeholder="Enter your Quote..." required></textarea>
   
     </div>
     <button type="submit" class="btn btn-primary">Add Quote</button>
