@@ -10,8 +10,8 @@ export class QuotesComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(1, "Get busy living or get busy dying..", 'Stephen King', new Date(2017, 5, 4)),
     new Quote(2, "Gamble everything for love, if you're a true human being.", 'MICHAEL JORDAN', new Date(2011, 1, 19)),
-    new Quote(3, "You only live once, but if you do it right, once is enough..", 'Mae West', new Date(2010, 3, 9)),
-    new Quote(4, "Never let the fear of striking out keep you from playing the game..", 'Roney Juma', new Date(2021, 2, 23)),
+    new Quote(3, "You only live once, but if you do it right, once is enough..", 'MAE JORDAN', new Date(2010, 3, 9)),
+    new Quote(4, "Never let the fear of striking out keep you from playing the game..", 'RONEY JUMA', new Date(2021, 2, 23)),
   ];
 
   toggleDescription(index: any) {
