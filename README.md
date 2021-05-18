@@ -12,6 +12,11 @@ This is an angular Application that helps the user to read, add and delete some 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+### Live Site
+View [live](https://roney-juma.github.io/Quotes_angular/)
+### Licence
+This project is under the  [MIT](LICENSE) licence
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
