@@ -9,7 +9,7 @@
               </div>
               <div class="card-body" highlight>
                 <p class="card-text"> <span class="marks">" </span>{{quote.name}} <span class="marks">"</span></p>
-                <p *ngIf='!quote.showDescription' id="info" class="btn btn-secondary" (click)='toggleDescription(i)'>Info
+                <p *ngIf='!quote.showDescription' id="info" class="btn btn-secondary" (click)='toggleDescription(i)'>More
                 </p>
                 <p *ngIf='quote.showDescription' id="minimize" class="btn btn-primary" (click)='toggleDescription(i)'>
                   Minimize</p>
